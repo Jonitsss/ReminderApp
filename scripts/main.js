@@ -115,7 +115,7 @@ function TareasGuardadas() {
             tareaDiv.classList.add('red');
         }
         const diasRestantes = Math.max(0, Math.ceil((tiempoTotal - tiempoTranscurrido) / (1000 * 60 * 60 * 24)));
-        actualizarTextoDias(dias, diasRestantes+1);
+        actualizarTextoDias(dias, diasRestantes);
     });
 }
 
