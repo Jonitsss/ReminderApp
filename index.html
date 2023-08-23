@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+    <link rel="shortcut icon" href="img/icon.png" type="img/png">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--DISPLAY 1-->
+    <div id="display-1" class="display-1">
+        <h1>No tienes ninguna Tarea...</h1>
+        <img src="img/cry.svg" alt="">
+        <button id="btn-add-tarea" value="" class="btn-add-d1">AÑADIR TAREA</button>
+    </div>
+<!--PANTALLA 2-->
+    <div id="display-2" class="display-2">
+        <div class="header">
+            <h1 class="title-p2">Añadir una Tarea</h1>
+                <input type="text" id="input" placeholder="Escribe tu tarea" value="">
+                <label for="">
+                    <button id="select-img">Select img</button>
+                    <select name="" id="select-day">
+                        <option value="1">1 día</option>
+                    </select>
+                </label>
+        </div>
+        <div class="content-images" id="img-content">
+            <img src="img/moto.svg" alt="moto" class="icons">
+            <img src="img/bana.svg" alt="bana" class="icons">
+            <img src="img/cake.svg" alt="" class="icons">
+            <img src="img/camera.svg" alt="" class="icons">
+            <img src="img/control.svg" alt="" class="icons">
+            <img src="img/devil.svg" alt="" class="icons">
+            <img src="img/diamond.svg" alt="" class="icons">
+            <img src="img/shop.svg" alt="" class="icons">
+            <img src="img/pija.svg" alt="" class="icons">
+        </div>
+        <!--btn-add-->
+        <img src="img/plus.svg" alt="" class="btn-add" id="btn">
+    </div>
+    <!--TAREAS❣-->
+    <div id="content-tareas" class="content-tareas">
+        
+    </div>
+    <!--SCRIPTS-->
+    <script src="scripts/dropdown.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
